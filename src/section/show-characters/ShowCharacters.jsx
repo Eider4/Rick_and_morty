@@ -9,7 +9,7 @@ export const ShowCharacters = () => {
     data: resp,
     loading,
     error,
-  } = useFetch("https://rckandmortyapi.com/api/character");
+  } = useFetch("https://rickandmortyapi.com/api/character");
 
   //   console.log(data);
   useEffect(() => {
